@@ -8,82 +8,83 @@ import fastfoodsImg from '../assets/fastfoods.jpg';
 const Category = () => {
 
 const menuItems = {
-  breakfasts: [
+  Kahvaltılar: [
     {
-      name: "Pancakes",
-      price: "$5.99",
-      description: "Fluffy pancakes with maple syrup and butter.",
+      name: "Pankek",
+      price: "₺89.90",
+      description: "Akçaağaç şurubu ve tereyağı ile kabarık pankekler.",
     },
     {
-      name: "Omelette",
-      price: "$4.50",
-      description: "Three-egg omelette with cheese and herbs.",
+      name: "Omlet",
+      price: "₺67.50",
+      description: "Peynir ve otlarla hazırlanmış üç yumurtalı omlet.",
     },
     {
-      name: "Avocado Toast",
-      price: "$6.25",
-      description: "Sourdough toast with smashed avocado and chili flakes.",
+      name: "Avokado Tost",
+      price: "₺94.00",
+      description: "Acı biber taneleriyle ezilmiş avokadolu ekşi mayalı tost.",
     },
   ],
-  coffees: [
+  Kahveler: [
     {
       name: "Latte",
-      price: "$3.80",
-      description: "Espresso with steamed milk and a light layer of foam.",
+      price: "₺57.00",
+      description: "Buharda ısıtılmış süt ve ince köpük katmanı ile espresso.",
     },
     {
       name: "Espresso",
-      price: "$2.75",
-      description: "Strong and bold espresso shot served hot.",
+      price: "₺41.00",
+      description: "Sıcak servis edilen güçlü ve yoğun espresso shot.",
     },
     {
-      name: "Iced Coffee",
-      price: "$3.20",
-      description: "Cold brewed coffee served over ice.",
+      name: "Soğuk Kahve",
+      price: "₺48.00",
+      description: "Buz üzerinde servis edilen soğuk demleme kahve.",
     },
   ],
-  desserts: [
+  Tatlılar: [
     {
       name: "Cheesecake",
-      price: "$4.99",
-      description: "Classic New York-style cheesecake with graham cracker crust.",
+      price: "₺64.00",
+      description: "Graham kraker tabanlı klasik New York tarzı cheesecake.",
     },
     {
-      name: "Chocolate Lava Cake",
-      price: "$5.50",
-      description: "Warm chocolate cake with a gooey molten center.",
+      name: "Çikolatalı Volkanik Kek",
+      price: "₺71.00",
+      description: "İçi akışkan sıcak çikolatalı kek.",
     },
     {
-      name: "Ice Cream",
-      price: "$3.25",
-      description: "Two scoops of your choice: vanilla, chocolate, or strawberry.",
+      name: "Dondurma",
+      price: "₺46.00",
+      description: "İki top dondurma: vanilya, çikolata veya çilek seçenekleriyle.",
     },
   ],
-  fastfoods: [
+  Aburcuburlar: [
     {
       name: "Burger",
-      price: "$7.50",
-      description: "Grilled beef patty with cheese, lettuce, tomato, and sauce.",
+      price: "₺97.50",
+      description: "Peynir, marul, domates ve sosla hazırlanmış ızgara dana köftesi.",
     },
     {
-      name: "Fries",
-      price: "$2.99",
-      description: "Crispy golden fries with sea salt.",
+      name: "Patates Kızartması",
+      price: "₺38.00",
+      description: "Deniz tuzu ile hazırlanmış çıtır altın kızartmalar.",
     },
     {
-      name: "Chicken Nuggets",
-      price: "$5.25",
-      description: "Crispy breaded chicken bites with dipping sauce.",
+      name: "Tavuk Nugget",
+      price: "₺68.00",
+      description: "Sos eşliğinde sunulan çıtır pane kaplı tavuk parçaları.",
     },
   ],
 };
 
 
+
 const categoryBackgrounds = {
-  breakfasts: breakfastsImg,
-  coffees: coffeesImg,
-  desserts: dessertsImg,
-  fastfoods: fastfoodsImg,
+  Kahvaltılar: breakfastsImg,
+  Kahveler: coffeesImg,
+  Tatlılar: dessertsImg,
+  Aburcuburlar: fastfoodsImg,
 };
 
     const {categoryName} = useParams();
@@ -100,7 +101,7 @@ const categoryBackgrounds = {
         onClick={() => navigate(-1)}
         className="mb-8 px-4 py-2 rounded-lg bg-blue-900  cursor-pointer inline-flex items-center gap-2 text-white font-medium hover:text-gray-400 transition"
       >
-        ← Back to Menu
+        ← Menüye Geri Dön
       </button>
 
       {/* Title */}

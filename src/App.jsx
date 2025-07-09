@@ -23,7 +23,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path='/' element={ <Home />}></Route>
-        <Route path='/category/:categoryName' element={<Category />}></Route>
+        <Route path='/kategori/:categoryName' element={<Category />}></Route>
       </Routes>
     </Router>
   )
