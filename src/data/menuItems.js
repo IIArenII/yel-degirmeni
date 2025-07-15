@@ -4,27 +4,27 @@ export const menuItems = {
       {
         name: "Sahanda Yumurta",
         description: "",
-        price: "115"
+        price: "₺115"
       },
       {
         name: "Sahanda Sucuklu Yumurta",
         description: "",
-        price: "145"
+        price: "₺145"
       },
       {
         name: "Sahanda Kavurmalı Yumurta",
         description: "",
-        price: "180"
+        price: "₺180"
       },
       {
         name: "Sahanda Menemen",
         description: "",
-        price: "150"
+        price: "₺150"
       },
       {
         name: "Sahanda Salçalı Sosis",
         description: "",
-        price: "145"
+        price: "₺145"
       }
     ],
     Tostlar: [
@@ -563,9 +563,9 @@ Kahveler: {
     ],
     "Sütlü Tatlılar": [
       { name: "Profiterol", price: "₺155", description: "" },
-      { name: "Fırında Sütlaç", price: "", description: "" },
-      { name: "Keşkül", price: "", description: "" },
-      { name: "Sakızlı Muhallebi", price: "", description: "" },
+      { name: "Fırında Sütlaç", price: "₺", description: "" },
+      { name: "Keşkül", price: "₺", description: "" },
+      { name: "Sakızlı Muhallebi", price: "₺", description: "" },
       { name: "Magnolia Çilekli & Muzlu", price: "₺155", description: "" },
     ],
   },
@@ -734,12 +734,12 @@ Aburcuburlar: {
     },
     {
       name: "Kavurmalı Pizza",
-      price: "",
+      price: "₺",
       description: "Et kavurma, kırmızı kapya biber ve mozarella peynir ile hazırlanır.",
     },
     {
       name: "Vejeteryan Pizza",
-      price: "",
+      price: "₺",
       description: "Mozarella peyniri, mantar, siyah zeytin, mix biber ve mısır ile hazırlanır.",
     },
   ],
@@ -747,32 +747,32 @@ Aburcuburlar: {
       {
         name: "Etli Wrap",
         description: "Tortilla ekmeği arasında mantar, mix biber, soya sosu, kaşar peyniri ile sotelenmiş et parçaları. Parmak dilim patates ve mini salata ile servis edilir.",
-        price: "330"
+        price: "₺330"
       },
       {
         name: "Tavuklu Wrap",
         description: "Tortilla ekmeği arasında mantar, mix biber, soya sosu, kaşar peyniri ile sotelenmiş tavuk parçaları. Parmak patates ve mini salata ile servis edilir.",
-        price: "300"
+        price: "₺300"
       },
       {
         name: "Köfteli Wrap",
         description: "Tortilla ekmeği arasında mantar, mix biber, soya sosu, köfte ve kaşar peyniri. Parmak dilim patates ve mini salata ile servis edilir.",
-        price: "310"
+        price: "₺310"
       },
       {
         name: "Sebzeli Wrap",
         description: "Soya sosu, mantar, biber çeşitleri, mozzarella peyniri, mısır, zeytin.",
-        price: "280"
+        price: "₺280"
       },
       {
         name: "Acılı Wrap",
         description: "Jalapeno, tavuk parçaları, biber çeşitleri, mantar, mozzarella peyniri, soya sosu.",
-        price: "310"
+        price: "₺310"
       },
       {
         name: "Değirmen Wrap",
         description: "Kaşar peyniri, cheddar peyniri, et parçaları, biber çeşitleri, mısır, domates, kekik, soya sosu.",
-        price: ""
+        price: "₺"
       },
     ],
     Bagetler: [
