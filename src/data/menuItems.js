@@ -1,0 +1,799 @@
+export const menuItems = {
+  Kahvaltılar: {
+    Sahandalar: [
+      {
+        name: "Sahanda Yumurta",
+        description: "",
+        price: "115"
+      },
+      {
+        name: "Sahanda Sucuklu Yumurta",
+        description: "",
+        price: "145"
+      },
+      {
+        name: "Sahanda Kavurmalı Yumurta",
+        description: "",
+        price: "180"
+      },
+      {
+        name: "Sahanda Menemen",
+        description: "",
+        price: "150"
+      },
+      {
+        name: "Sahanda Salçalı Sosis",
+        description: "",
+        price: "145"
+      }
+    ],
+    Tostlar: [
+      {
+      name: "Kaşar Peynirli Tost",
+      price: "₺160.00",
+      description: "Domates, salatalık, Akdeniz yeşilliği ve parmak dilim patates eşliğinde servis edilir."
+    },
+    {
+      name: "Karışık Tost",
+      price: "₺175.00",
+      description: "Kaşar peynir, salam, sucuk, domates, salatalık, Akdeniz yeşilliği ve parmak dilim patates eşliğinde servis edilir."
+    },
+    {
+      name: "Beyaz Peynirli Tost",
+      price: "₺155.00",
+      description: "Domates, salatalık, Akdeniz yeşilliği ve parmak patates eşliğinde servis edilir."
+    },
+    {
+      name: "Yel Değirmeni Tost",
+      price: "₺200.00",
+      description: "Salam, sucuk, sosis, yumurta, kaşar, peynir, kekik, pul biber,  cheddar."
+    },
+    {
+      name: "Kırım Tost (Et Dönerli Tost)",
+      price: "",
+      description: "Hamburger ekmeğinde et döner, biber çeşitleri, cheddar ve kaşar peyniri."
+    },
+    {
+      name: "Bazlama Karışık Tost",
+      price: "₺200.00",
+      description: "Kaşar peyniri, salam, sucuk, domates, salatalık, Akdeniz yeşilliği ve parmak dilim patates eşliğinde servis edilir."
+    },
+    {
+      name: "Körili Bazlama Tost",
+      price: "₺215.00",
+      description: "Tavuk parçaları, köri sosu, krema ile hazırlanır."
+    },
+    {
+      name: "Veggie Tost",
+      price: "₺155.00",
+      description: "Siyah zeytin, mısır, kaşar peyniri, domates, salatalık eşliğinde servis edilir."
+    },
+    {
+      name: "Demi glace Soslu Tost",
+      price: "₺215.00",
+      description: "Et parçaları, krema, karabiber, kekik, cheddar ve kaşar peyniri ile hazırlanır."
+    },
+    {
+      name: "Tavuklu Bazlama Tost",
+      price: "₺215.00",
+      description: "Tavuk parçaları, biber çeşitleri, pul biber, kekik, kaşar peyniri, soya sosu ile hazırlanır."
+    },
+    {
+      name: "Acılı Bazlama Tost",
+      price: "₺225.00",
+      description: "Tavuk parçaları, jalapeno biber, biber çeşitleri, cheddar ve kaşar peyniri ile hazırlanır."
+    },
+    {
+      name: "Şefin Kavurmalı Tostu",
+      price: "₺250.00",
+      description: "Mix biber, kavrulmuş et, kaşar peyniri, domates, salatalık, Akdeniz yeşilliği ve parmak patates eşliğinde servis edilir."
+    },
+    {
+      name: "Sucuklu Tost",
+      price: "₺175.00",
+      description: "Sucuk, kaşar peyniri, salça sosu, kekik ve pul biber ile servis edilir."
+    },
+    {
+      name: "Acılı Tost",
+      price: "₺165.00",
+      description: "Jalapeno biber, salam, sucuk, sosis ve biber çeşitleri ile hazırlanır."
+    },
+],
+    Sandviçler: [
+    {
+      name: "İzmir Kumru",
+      price: "₺200",
+      description: "Parmak dilim patates, domates ve yeşillik buketi ile servis edilir.",
+    },
+    {
+      name: "Sucuk Ekmek",
+      price: "₺180",
+      description: "Parmak dilim patates, domates ve yeşillik buketi ile servis edilir.",
+    },
+    {
+      name: "Beyaz/Kaşar Peynirli Sandviç",
+      price: "₺150",
+      description: "Parmak dilim patates, domates ve yeşillik buketi ile servis edilir.",
+    },
+    {
+      name: "Ton Balıklı Sandviç",
+      price: "₺170",
+      description: "Parmak dilim patates, domates ve yeşillik buketi ile servis edilir.",
+    },
+    {
+      name: "Karışık Sandviç",
+      price: "₺165",
+      description: "Salam, sosis, kaşar peyniri ile hazırlanır. Parmak dilim patates, domates ve yeşillik buketi ile servis edilir.",
+    },
+  ],
+
+    Gözleme: [
+    {
+      name: "YOĞURTLU GÖZLEME",
+      price: "₺155",
+      description: "Üzerine salça, yoğurt sosu eşliğinde servis edilir."
+    },
+    {
+      name: "KIYMALI GÖZLEME",
+      price: "₺180",
+      description: "Kıyma, biber, soğan, kaşar peyniri"
+    },
+    {
+      name: "KAŞARLI GÖZLEME",
+      price: "₺150",
+      description: ""
+    },
+    {
+      name: "BEYAZ PEYNİRLİ GÖZLEME",
+      price: "₺145",
+      description: ""
+    },
+    {
+      name: "PATATESLİ GÖZLEME",
+      price: "₺165",
+      description: ""
+    }
+  ],
+  },
+
+Kahveler: {
+  "Soğuk Kahveler": [
+    { name: "Buzlu kahve", price: "₺120", description: "Espresso, kahve, süt ve buz ile hazırlanır." },
+    { name: "Buzlu sütlü kahve", price: "₺125", description: "Soğuk sütle hazırlanan buzlu kahve." },
+    { name: "Aromalı buzlu kahve", price: "₺190", description: "Çilek, fındık, vanilya, badem, karamel, muz, kavun aromalarıyla hazırlanır." },
+    { name: "Frappeler", price: "₺130", description: "Süt, buz parçacıkları, meyve püresi, kahve ve meyve konsantresi ile hazırlanır. Çilekli - Çikolatalı - Vanilyalı - Kavunlu - Kivili - Muzlu - Ananaslı - Böğürtlenli - Kırmızı Orman Meyveli - Şeftalili " },
+  ],
+  "Espresso Bazlı Kahveler": [
+    {
+      name: "ESPRESSO",
+      price: "₺100",
+      description: " espresso arabica çekirdeklerinden hazırlanmış eşsiz lezzet"
+    },
+    {
+      name: "DOUBLE ESPRESSO",
+      price: "₺120",
+      description: "%100 Espresso Arabica çekirdeklerinden hazırlanmış double espressonun eşsiz lezzeti"
+    },
+    {
+      name: "AMERICANO",
+      price: "₺100",
+      description: "Espresso'nun fincanda yumuşak sunumu"
+    },
+    {
+      name: "VIENESE",
+      price: "₺100",
+      description: "double espresso ve krema şöleni"
+    },
+    {
+      name: "ESPRESSO CONPANA",
+      price: "₺100",
+      description: "krema ve kahvenin birleştiği eşsiz lezzet"
+    },
+    {
+      name: "CAPPUCCINO",
+      price: "₺",
+      description: "espresso, süt ve süt köpüğü ile hazırlanır"
+    },
+    {
+      name: "AROMALI CAPPUCCINO",
+      price: "₺110",
+      description: "Fındık - Vanilya - Çilek - Çikolata - Muz"
+    },
+    {
+      name: "CARAMEL MACCHIATO",
+      price: "₺125",
+      description: "karamel şurubu, espresso kahve ve süt'ün muhteşem dansı"
+    },
+    {
+      name: "CARAMEL LATTE",
+      price: "₺125",
+      description: "karamel şurubu, espresso kahve ve süt'ün muhteşem dansı"
+    }
+  ],
+  "Latteler": [
+    {
+      name: "LATTE",
+      price: "₺115",
+      description: "Espresso'nun Süt İle Dansı"
+    },
+    {
+      name: "AROMALI LATTE",
+      price: "₺125",
+      description: "Karamel Çilek Vanilya Baden-Fundik"
+    }
+  ],
+  "Mochalar": [
+    {
+      name: "ÇİKOLATALI MOCHA",
+      price: "₺115",
+      description: "Espresso, süt ve bol çikolata ziyafeti"
+    },
+    {
+      name: "BEYAZ ÇİKOLATALI MOCHA",
+      price: "₺125",
+      description: "Espresso, süt ve beyaz çikolatanın en hafif etkileşimi"
+    }
+  ],
+  "Türk Kahveleri": [
+    {
+      name: "SADE TÜRK KAHVESİ",
+      price: "₺85",
+      description: ""
+    },
+    {
+      name: "DAMLA SAKIZLI TÜRK KAHVESİ",
+      price: "₺90",
+      description: ""
+    },
+    {
+      name: "DİBEK TÜRK KAHVESİ",
+      price: "₺90",
+      description: ""
+    },
+    {
+      name: "MENENGİÇ KAHVESİ",
+      price: "₺90",
+      description: ""
+    },
+    {
+      name: "SÜTLÜ TÜRK KAHVESİ",
+      price: "₺90",
+      description: ""
+    }
+  ],
+  "Filtre Kahveler": [
+    {
+      name: "SADE FİLİTRE KAHVE",
+      price: "₺110",
+      description: "sade sevenler için yumuşak bir kahve keyfi"
+    },
+    {
+      name: "FRENCH VANİLYA",
+      price: "₺115",
+      description: "vanilya aromalı koyu kahve keyfi"
+    },
+    {
+      name: "CHOCOLATE RASPBERRY",
+      price: "₺120",
+      description: "çikolata ve böğürtlen şöleni"
+    },
+    {
+      name: "SWISS CHOCO",
+      price: "₺120",
+      description: "bol çikolatalı kahve."
+    },
+    {
+      name: "HAZELNUT",
+      price: "₺125",
+      description: "fındık ve vanilya karışımlı kahve"
+    },
+    {
+      name: "COLOMBIAN SUPREME",
+      price: "₺115",
+      description: "zengin aromasıyla kahvaltı sonrası ideal bir içecek"
+    },
+    {
+      name: "GUATEMALA",
+      price: "₺120",
+      description: "farklı aromalan içeren yoğun lezzet"
+    },
+    {
+      name: "KENIA",
+      price: "₺115",
+      description: "afrika kökenli hoş kokulu keskin harmanlı bir kahve"
+    }
+  ],
+  "Nescafe": [
+    {
+      name: "NESCAFE GOLD",
+      price: "₺105",
+      description: ""
+    },
+    {
+      name: "NESCAFE GOLD SADE",
+      price: "₺105",
+      description: ""
+    },
+    {
+      name: "NESCAFE GOLD SÜTLÜ",
+      price: "₺115",
+      description: ""
+    },
+    {
+      name: "NESCAFE",
+      price: "₺",
+      description: ""
+    }
+  ]
+},
+
+  "Soğuk & Sıcak İçecekler": {
+
+    "Sıcak İçecekler": [
+      {
+        name: "Sıcak Çikolata",
+        price: "₺110.00",
+        description: ""
+      },
+      {
+        name: "Aromalı Sıcak Çikolata",
+        price: "₺120.00",
+        description: "Çilekli - Vanilyalı - Fındıklı - Bademli - Karamelli - Muzlu - Kavunlu"
+      }, 
+      {
+    name: "Ada Çayı",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Finçay Çay",
+    price: "₺60.00",
+    description: "",
+  },
+  {
+    name: "Atom Çayı",
+    price: "₺85.00",
+    description: "",
+  } ,
+  {
+    name: "Nane Limon Çayı",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Kış Çayı",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Ihlamur",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Yeşil Çay",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Limonlu Yeşil Çay",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Naneli Yeşil Çay",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Yaseminli Yeşil Çay",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Papatya Çayı",
+    price: "₺95.00",
+    description: "",
+  },
+
+  // Meyve Çayları
+  {
+    name: "Elma Çayı",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Böğürtlen Çayı",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Kuşburnu Çayı",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Elma Tarçın Çayı",
+    price: "₺95.00",
+    description: "",
+  },
+  {
+    name: "Kırmızı Orman Meyveli Çay",
+    price: "₺95.00",
+    description: "",
+  },
+
+  // Klasik Çaylar
+  {
+    name: "İnce Belli Bardak Çay",
+    price: "₺30.00",
+    description: "",
+  },
+  
+
+    ],
+    "Soğuk İçecekler": [
+      {
+        name: "Sıkma Limonlu Soda",
+        price: "₺90.00",
+        description: "churchill",
+      },
+      {
+        name: "Mojito",
+        price: "₺150.00",
+        description: "",
+      },
+      {
+        name: "Portakal Suyu",
+        price: "₺125.00",
+        description: "Mevsimine göre bulunmaktadır.",
+      },
+      {
+        name: "Limonata",
+        price: "₺120.00",
+        description: "Mevsimine göre bulunmayabilir. Limonatalarımız limon, şeker ve su ile yapılmaktadır. Herhangi bir katkı maddesi bulunmamaktadır",
+      },
+      {
+        name: "Aromalı Limonata",
+        price: "₺125.00",
+        description: "Naneli-Elmalı-Çilekli",
+      },
+      {
+        name: "Milkshakeler",
+        price: "₺150.00",
+        description: "Süt, buz parçaları, dondurma, meyve parçaları ve meyve konsantresi ile hazırlanır. Çilekli - Çikolatalı - Vanilyalı - Kavunlu - Kırmızı Orman Meyveli - Şeftalili - Mangolu - Kivili - Muzlu - Ananaslı - Böğürtlenli "
+      },
+      {
+        name: "İce Ball",
+        price: "₺130.00",
+        description: "2 Top sade, 1 Top çilekli dondurma, çikolata şurubu, çilek şurubu buz ve süt ile hazırlanır."
+      },
+      {
+        name: "Soğuk Çikolata",
+        price: "₺110.00",
+        description: ""
+      },
+      {
+        name: "Soğuk Beyaz Çikolata",
+        price: "₺120.00",
+        description: ""
+      },
+      {
+        name: "Frozenlar",
+        price: "₺120.00",
+        description: "Buz parçaları, meyve püresi ve meyve konsantresi ile hazırlanır. Çilekli - Vanilyalı - Kavunlu - Karpuzlu -Kırmızı Orman Meyveli - Şeftalili - Mangolu - Elmalı"
+      },
+      {
+        name: "Smoothieller",
+        price: "₺140.00",
+        description: "Süt, buz parçacıkları, yoğurt, meyve parçacıkları, ve meyve konsantresi ile hazırlanır. Çilekli - Çikolatalı - Vanilyalı - Kavunlu - Kırmızı Orman Meyveli - Şeftalili - Mangolu - Kivili - Muzlu - Ananaslı - Böğürtlenli"
+      },
+      {
+        name: "Cocacola",
+        price: "₺60.00",
+        description: "",
+      },  
+      {
+        name: "Fanta",
+        price: "₺60.00",
+        description: "",
+      },   
+      {
+        name: "Sprite",
+        price: "₺60.00",
+        description: "",
+      },   
+            {
+        name: "Cappy",
+        price: "₺60.00",
+        description: "Şeftali-Karışık-Vişne",
+      },            
+            {
+        name: "Fuse Tea",
+        price: "₺60.00",
+        description: "Şeftali-Karpuz-Mango",
+      },     
+            {
+        name: "Beypazarı Soda",
+        price: "₺30.00",
+        description: "",
+      },    
+            {
+        name: "Beypazarı Meyveli Soda",
+        price: "₺40.00",
+        description: "",
+      }, 
+            {
+        name: "Redbull",
+        price: "₺95.00",
+        description: "",
+      }, 
+            {
+        name: "Ayran Bardak",
+        price: "₺30.00",
+        description: "",
+      }, 
+            {
+        name: "Niğde Gazozu",
+        price: "₺40.00",
+        description: "",
+      }, 
+            {
+        name: "Portakal Suyu",
+        price: "₺110.00",
+        description: "",
+      }, 
+       
+    ],
+  },
+
+
+  Tatlılar: {
+    "Pastalar & Diğer Tatlılar": [
+      { name: "Adet Pasta", price: "₺160", description: "Çikolatalı, Fıstık Drajeli, Meyveli" },
+      { name: "Malaga Pasta", price: "₺170", description: "" },
+      { name: "Bubble Waffle", price: "₺200", description: "" },
+      { name: "San Sebastian Cheesecake", price: "₺175", description: "" },
+      { name: "Şeffaf Çilek", price: "₺150", description: "" },
+      { name: "Sufle", price: "₺130", description: "" },
+      { name: "Trileçe", price: "₺150", description: "" },
+      { name: "Alman Pastası", price: "₺75", description: "" },
+      { name: "Ekler Pasta", price: "₺160", description: "" },
+      { name: "Kuru Pasta (Porsiyon)", price: "₺135", description: "" },
+    ],
+    "Sütlü Tatlılar": [
+      { name: "Profiterol", price: "₺155", description: "" },
+      { name: "Fırında Sütlaç", price: "", description: "" },
+      { name: "Keşkül", price: "", description: "" },
+      { name: "Sakızlı Muhallebi", price: "", description: "" },
+      { name: "Magnolia Çilekli & Muzlu", price: "₺155", description: "" },
+    ],
+  },
+
+"Etler": {
+  "Beyaz Etler": [
+    {
+      name: "TAVUK FAJİTA",
+      price: "₺300",
+      description: "Sotelenmiş soğan, kırmızı ve yeşil biber üzerine ızgara jülyen doğranmış tavuk göğsü, jalapeno biber, rende kaşar ve dip sos ile servis edilir."
+    },
+    {
+      name: "TAVUK KÜLBASTI",
+      price: "₺290",
+      description: "Tavuk külbastılar, pilav, köylüm patates, domates, yeşil biber ile servis edilir."
+    },
+    {
+      name: "KORİ SOSLU TAVUK",
+      price: "₺285",
+      description: "Mantar, mix biber ile sotelenmiş körü soslu tavuk eti, kızarmış patates, kaşar peyniri, jalapeno biber ve dip sos ile servis edilir."
+    },
+    {
+      name: "DAĞ KEKİKLİ TAVUK",
+      price: "₺285",
+      description: "Tavuk parçaları, krema, dağ kekiği, pilav ve patates kızartması ile servis edilir."
+    },
+    {
+      name: "CHİLLİ SOSLU TAVUK",
+      price: "₺285",
+      description: "Özel sos ile sotelenmiş tavuk parçaları, patates kızartması, mini salata ve dip sos eşliğinde servis edilir."
+    },
+    {
+      name: "CHEDDAR SOSLU CHICKEN FINGERS",
+      price: "₺285",
+      description: "Beş parça chicken finger, yeşillik buketi, patates kızartması ve cheddar sos ile servis edilir."
+    }
+  ],
+  "Kırmızı Etler": [
+    {
+      name: "ÇOBAN KAVURMA",
+      price: "₺360",
+      description: "İri sebzelerle sotelenmiş et parçaları, pilav, patates kızartması ve çeri domates eşliğinde servis edilir."
+    },
+    {
+      name: "ET FAJÍTA",
+      price: "₺350",
+      description: "Sotelenmiş soğan, kırmızı ve yeşil biber üzerine jülyen doğranmış et parçaları, jalapeno biber, rende kaşar ve dip sos ile servis edilir."
+    },
+    {
+      name: "IZGARA KÖFTE",
+      price: "₺330",
+      description: "El yapımı köfteler, patates kızartması, ızgara domates, közlenmiş biber ve pilav ile servis edilir."
+    },
+    {
+      name: "YOĞURTLU KÖFTE KEBAB",
+      price: "₺350",
+      description: "Kuşbaşı kesilmiş pide üzerine yoğurt, köfte, salça, sos, köz biber ve tereyağı ile servis edilir."
+    },
+    {
+      name: "DANA KÜLBASTI",
+      price: "₺350",
+      description: "Patates kızartması, domates, biber ile dana lokumlar, pilav eşliğinde servis edilir."
+    },
+    {
+      name: "ŞEF ÖZEL KAŞARLI KÖFTE",
+      price: "₺345",
+      description: "Üzeri kaşar peynirli el yapımı köfteler, patates kızartması, ızgara domates, közlenmiş biber ve pilav ile servis edilir."
+    },
+  ],
+},
+
+Aburcuburlar: {
+  "Burgerler": [
+    {
+      name: "HAMBURGER",
+      price: "₺275",
+      description: "El yapımı özel hamburger köftesi, domates, turşu, soğan halkası, patates kızartması, mini salata eşliğinde servis edilir."
+    },
+    {
+      name: "CHEESBURGER",
+      price: "₺280",
+      description: "El yapımı özel hamburger köftesi, cheddar peyniri, domates, turşu, soğan halkası, patates kızartması, mini salata eşliğinde servis edilir."
+    },
+    {
+      name: "CHICKEN BURGER",
+      price: "₺265",
+      description: "Özel tavuk eti, domates, turşu, soğan halkası, patates kızartması, mini salata eşliğinde servis edilir."
+    },
+    {
+      name: "CHICKEN CHESE BURGER",
+      price: "₺270",
+      description: "Özel tavuk eti, domates, turşu, cheddar peyniri, soğan halkası, patates kızartması, mini salata eşliğinde servis edilir."
+    },
+    {
+      name: "HOT BURGER",
+      price: "₺280",
+      description: "El yapımı özel hamburger köftesi, domates, turşu, soğan halkası, patates kızartması, mini salata, jalapeno biber eşliğinde servis edilir."
+    },
+    {
+      name: "ISLAK HAMBURGER",
+      price: "₺265",
+      description: "İstanbul sokaklarından mutfağınıza gelen eşsiz lezzet. %100 dana köfte, özel sos ile sotelenip, patates kızartması, soğan halkası, mini salata ile servis edilir."
+    },
+    {
+      name: "KARAMELİZE BURGER",
+      price: "₺280",
+      description: "120 gr et köfte, karamelize soğan, kaşar peyniri, kıvırcık, domates, turşu eşliğinde servis edilir."
+    },
+    {
+      name: "MANTARLI BURGER",
+      price: "₺280",
+      description: "120 gr et köfte, karamelize mantar, kaşar peyniri, kıvırcık, domates, turşu eşliğinde servis edilir."
+    },
+    {
+      name: "BARBÜKÜ BURGER",
+      price: "₺",
+      description: "120 gr et köfte, barbekü sos, mantar, kıvırcık, domates, turşu eşliğinde servis edilir."
+    },
+    {
+      name: "AVAKADOLU TAVUK BURGER",
+      price: "₺280",
+      description: "120 gr tavuk, avokado sosu, kaşar peyniri, cheddar peyniri, kıvırcık, domates, turşu ile servis edilir."
+    },
+    {
+      name: "PATLICANLI BURGER",
+      price: "₺280",
+      description: "%100 dana köfte, köz patlıcan, kırmızı biber, domates, patates kızartması, soğan halkası, mini salata eşliğinde servis edilir."
+    }
+  ],
+
+    Pizzalar: [
+    {
+      name: "Şef Özel Pizza",
+      price: "₺295",
+      description: "Köz patlıcan, bonfile dilimler, köz biber, mısır, mozarella peynir.",
+    },
+    {
+      name: "Bol Sucuklu Pizza",
+      price: "₺270",
+      description: "İri sucuklar ve mozarella peyniri ile hazırlanır.",
+    },
+    {
+      name: "Tavuklu Alaturka Pizza",
+      price: "₺265",
+      description: "Tavuk parçacıkları ve mozarella peyniri ile hazırlanır.",
+    },
+    {
+      name: "Ton Balıklı Pizza",
+      price: "₺270",
+      description: "Mısır, soğan, ton balığı ve kekik ile hazırlanır.",
+    },
+    {
+      name: "Acılı Pizza",
+      price: "₺255",
+      description: "Tavuk parçaları, jalapeno biber, biber çeşitleri, soya sosu, pul biber ile hazırlanır.",
+    },
+    {
+      name: "Karışık Pizza",
+      price: "₺265",
+      description: "Sucuk, salam, sosis, mantar, mix biber ve mozarella peynir ile hazırlanır.",
+    },
+    {
+      name: "3 Peynirli Pizza",
+      price: "₺255",
+      description: "Kaşar, cheddar peynir ve beyaz peynir ile hazırlanır.",
+    },
+    {
+      name: "Kavurmalı Pizza",
+      price: "",
+      description: "Et kavurma, kırmızı kapya biber ve mozarella peynir ile hazırlanır.",
+    },
+    {
+      name: "Vejeteryan Pizza",
+      price: "",
+      description: "Mozarella peyniri, mantar, siyah zeytin, mix biber ve mısır ile hazırlanır.",
+    },
+  ],
+  "Wraplar": [
+      {
+        name: "Etli Wrap",
+        description: "Tortilla ekmeği arasında mantar, mix biber, soya sosu, kaşar peyniri ile sotelenmiş et parçaları. Parmak dilim patates ve mini salata ile servis edilir.",
+        price: "330"
+      },
+      {
+        name: "Tavuklu Wrap",
+        description: "Tortilla ekmeği arasında mantar, mix biber, soya sosu, kaşar peyniri ile sotelenmiş tavuk parçaları. Parmak patates ve mini salata ile servis edilir.",
+        price: "300"
+      },
+      {
+        name: "Köfteli Wrap",
+        description: "Tortilla ekmeği arasında mantar, mix biber, soya sosu, köfte ve kaşar peyniri. Parmak dilim patates ve mini salata ile servis edilir.",
+        price: "310"
+      },
+      {
+        name: "Sebzeli Wrap",
+        description: "Soya sosu, mantar, biber çeşitleri, mozzarella peyniri, mısır, zeytin.",
+        price: "280"
+      },
+      {
+        name: "Acılı Wrap",
+        description: "Jalapeno, tavuk parçaları, biber çeşitleri, mantar, mozzarella peyniri, soya sosu.",
+        price: "310"
+      },
+      {
+        name: "Değirmen Wrap",
+        description: "Kaşar peyniri, cheddar peyniri, et parçaları, biber çeşitleri, mısır, domates, kekik, soya sosu.",
+        price: ""
+      },
+    ],
+    Bagetler: [
+    {
+      name: "ETLİ BAGET",
+      price: "₺300",
+      description: "Baget ekmeği arasında mantar, mix biber, soya sosu, kaşar peyniri ile sotelenmiş et parçaları, parmak dilim patates, mini salata ve domates ile servis edilir."
+    },
+    {
+      name: "TAVUKLU BAGET",
+      price: "₺265",
+      description: "Baget ekmeği arasında mantar, mix biber, soya sosu, kaşar peyniri ile sotelenmiş tavuk parçaları, parmak dilim patates, mini salata ve domates ile servis edilir."
+    },
+    {
+      name: "KÖFTELİ BAGET",
+      price: "₺295",
+      description: "Baget ekmeği arasında, mantar, mix biber, soya sosu köfte, üzerine eritilmiş kaşar peyniri, parmak dilim patates, mini salata ve domates ile servis edilir."
+    }
+  ]
+  },
+    
+  }
+
+

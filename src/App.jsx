@@ -23,7 +23,10 @@ const App = () => {
     <Router>
       <Routes>
         <Route path='/' element={ <Home />}></Route>
-        <Route path='/kategori/:categoryName' element={<Category />}></Route>
+        <Route path='/kategori/:categoryName' element={<Category />}>
+          <Route path=':subcategoryName' element={<Category />} />
+        </Route>
+
       </Routes>
     </Router>
   )
