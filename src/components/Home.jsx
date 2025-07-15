@@ -9,7 +9,7 @@ const categories = [
   { name: "Kahveler", title: "☕ Kahveler" },
   { name: "Soğuk & Sıcak İçecekler", title: "🍵 İçecekler"  },
   { name: "Tatlılar", title: "🍰 Tatlılar" },
-  { name: "Kahvaltılar", title: "🍳 Kahvaltılar 🥪" },
+  { name: "Kahvaltılar", title: "🍳 Kahvaltılar " },
   { name: "Aburcuburlar", title: "🍔 Aburcuburlar"  },
   { name: "Etler", title:"🍗 Etler"},
 ];
