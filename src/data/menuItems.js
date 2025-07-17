@@ -516,7 +516,7 @@ Kahveler: {
     {
       name: "Sıcak Süt",
       description: "",
-      price: "₺15"
+      price: "₺75"
     }
   
 ],
