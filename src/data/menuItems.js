@@ -534,6 +534,11 @@ Kahveler: {
         description: "",
       },
       {
+        name: "Portakal Suyu",
+        price: "₺125.00",
+        description: "Mevsimine göre bulunmaktadır.",
+      },
+      {
         name: "Sıkma Limonlu Soda",
         price: "₺90.00",
         description: "churchill",
@@ -542,11 +547,6 @@ Kahveler: {
         name: "Mojito",
         price: "₺150.00",
         description: "",
-      },
-      {
-        name: "Portakal Suyu",
-        price: "₺125.00",
-        description: "Mevsimine göre bulunmaktadır.",
       },
       {
         name: "Limonata",
