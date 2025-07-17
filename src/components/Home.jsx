@@ -12,6 +12,8 @@ const categories = [
   { name: "Kahvaltılar", title: "🍳 Kahvaltılar" },
   { name: "Aburcuburlar", title: "🍔 Aburcuburlar"  },
   { name: "Etler", title:"🍗 Etler"},
+  { name: "Salatalar", title:"🥗 Salatalar"},
+  { name: "Makarnalar", title:"🍝 Makarnalar"},
 ];
 
 export default function Home() {

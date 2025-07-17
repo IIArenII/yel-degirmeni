@@ -1,5 +1,25 @@
 export const menuItems = {
   Kahvaltılar: {
+    SerpmeKahvaltılar: [
+      {
+        name: "Serpme Kahvaltı (Çift Kişilik)",
+        description:
+          "Beyaz peynir, kaşar peyniri, siyah zeytin, süzme bal, yeşillik, çilek ya da vişne reçeli, tereyağı, nutella, domates, salatalık, çiçek sosis, patates kızartması, sigara böreği, biber kızartması, çift yumurtaya kaşar peynirli omlet, sucuklu çifte yumurta, poğaça tabağı ve çay ile birlikte",
+        price: "₺650"
+      },
+      {
+        name: "Zengin Kahvaltı",
+        description:
+          "Beyaz peynir, taze kaşar peyniri, bal, sosis, macarsalam, reçel, siyah zeytin, yeşil zeytin, tereyağı, nutella, domates, salatalık, akdeniz yeşilliği, patates kızartması, sucuklu yumurta, poğaça ve 1 bardak çay ile",
+        price: "₺325"
+      },
+      {
+        name: "Ekspres Kahvaltı",
+        description:
+          "Beyaz peynir, kaşar peyniri, siyah zeytin, reçel, yeşil zeytin, bal, tereyağı, domates, salatalık, akdeniz yeşilliği, poğaça ve 1 bardak çay ile",
+        price: "₺300"
+      }
+    ],
     Sahandalar: [
       {
         name: "Sahanda Yumurta",
@@ -24,6 +44,33 @@ export const menuItems = {
       {
         name: "Sahanda Salçalı Sosis",
         description: "",
+        price: "₺145"
+      }
+    ],
+    Omletler: [
+      {
+        name: "Sade Omlet",
+        description: "Yeşillik buketi, domates, salatalık ile servis edilir.",
+        price: "₺120"
+      },
+      {
+        name: "Çift Peynirli Omlet",
+        description: "Kaşar peyniri, cheddar peyniri, domates, salatalık ve yeşillik buketi ile servis edilir.",
+        price: "₺135"
+      },
+      {
+        name: "Kaşarlı Omlet",
+        description: "Yeşillik buketi, domates ve salatalık ile servis edilir.",
+        price: "₺125"
+      },
+      {
+        name: "Karışık Omlet",
+        description: "Salam, sucuk, mantar, kaşar peyniri, domates, salatalık ve yeşillik buketi ile servis edilir.",
+        price: "₺130"
+      },
+      {
+        name: "Şef Özel Omlet",
+        description: "Patates, mix biber, kaşar peyniri, domates, salatalık ve yeşillik buketi ile servis edilir.",
         price: "₺145"
       }
     ],
@@ -329,32 +376,39 @@ Kahveler: {
 
   "Soğuk & Sıcak İçecekler": {
 
-    "Sıcak İçecekler": [
-      {
-        name: "Sıcak Çikolata",
-        price: "₺110.00",
-        description: ""
+    "Çaylar":[
+       {
+    name: "İnce Belli Bardak Çay",
+    price: "₺30.00",
+    description: "",
+  },
+    {
+        name: "Finçay Çay",
+        price: "₺60.00",
+        description: "",
       },
       {
-        name: "Aromalı Sıcak Çikolata",
-        price: "₺120.00",
-        description: "Çilekli - Vanilyalı - Fındıklı - Bademli - Karamelli - Muzlu - Kavunlu"
-      }, 
+        name: "Atom Çayı",
+        price: "₺85.00",
+        description: "",
+      } ,
+      {
+        name: "Küçük Semaver Çay",
+        price: "₺195.00",
+        description: "",
+      } ,
+      {
+        name: "Büyük Semaver Çay",
+        price: "₺390.00",
+        description: "",
+      } ,
+    ],
+    "Doğal Bitki Çayları": [
       {
     name: "Ada Çayı",
     price: "₺95.00",
     description: "",
   },
-  {
-    name: "Finçay Çay",
-    price: "₺60.00",
-    description: "",
-  },
-  {
-    name: "Atom Çayı",
-    price: "₺85.00",
-    description: "",
-  } ,
   {
     name: "Nane Limon Çayı",
     price: "₺95.00",
@@ -395,9 +449,13 @@ Kahveler: {
     price: "₺95.00",
     description: "",
   },
+    ],
+
+ 
 
   // Meyve Çayları
-  {
+  "Meyve Çayları": [
+    {
     name: "Elma Çayı",
     price: "₺95.00",
     description: "",
@@ -422,17 +480,59 @@ Kahveler: {
     price: "₺95.00",
     description: "",
   },
+  ],
 
-  // Klasik Çaylar
-  {
-    name: "İnce Belli Bardak Çay",
-    price: "₺30.00",
-    description: "",
-  },
+    "Sıcak İçecekler": [
+      {
+        name: "Ilık Su",
+        price: "₺15.00",
+        description: "",
+      },
+      {
+        name: "Sıcak Çikolata",
+        price: "₺110.00",
+        description: ""
+      },
+      {
+        name: "Aromalı Sıcak Çikolata",
+        price: "₺120.00",
+        description: "Çilekli - Vanilyalı - Fındıklı - Bademli - Karamelli - Muzlu - Kavunlu"
+      }, 
+       {
+      name: "Sade Salep",
+      description: "",
+      price: "₺110"
+    },
+    {
+      name: "Damla Sakızlı Salep",
+      description: "",
+      price: "₺120"
+    },
+    {
+      name: "Çikolatalı Salep",
+      description: "",
+      price: "₺120"
+    },
+    {
+      name: "Sıcak Süt",
+      description: "",
+      price: "₺15"
+    }
+  
+],
   
 
-    ],
+
+ 
+  
+
+    
     "Soğuk İçecekler": [
+      {
+        name: "Soğuk Su",
+        price: "₺15.00",
+        description: "",
+      },
       {
         name: "Sıkma Limonlu Soda",
         price: "₺90.00",
@@ -571,6 +671,28 @@ Kahveler: {
   },
 
 "Etler": {
+  TavaYemekleri: [
+    {
+      name: "Quesadilla Tavuk",
+      description: "Tavuk parçaları, jelepeno biberi, biber çeşitleri, lavaş, kaşar peyniri, cheddar peynir ve soya sosu ile servis edilir.",
+      price: "₺300"
+    },
+    {
+      name: "Quesadilla Et",
+      description: "Et parçaları, jelepeno biberi, biber çeşitleri, lavaş, kaşar peyniri, cheddar peyniri, soya sosu ile servis edilir.",
+      price: "₺340"
+    },
+    {
+      name: "Tavuk Çökertme",
+      description: "Tavuk parçaları, biber çeşitleri, kekik, pulbiber, çeri domates, yoğurt sosu, salça sosu ve patates taneleri eşliğinde servis edilir.",
+      price: "₺300"
+    },
+    {
+      name: "Et Çökertme",
+      description: "Et parçaları, biber çeşitleri, kekik, pulbiber, çeri domates, yoğurt sosu, salça sosu ve patates taneleri eşliğinde servis edilir.",
+      price: "₺350"
+    }
+  ],
   "Beyaz Etler": [
     {
       name: "TAVUK FAJİTA",
@@ -791,8 +913,80 @@ Aburcuburlar: {
       price: "₺295",
       description: "Baget ekmeği arasında, mantar, mix biber, soya sosu köfte, üzerine eritilmiş kaşar peyniri, parmak dilim patates, mini salata ve domates ile servis edilir."
     }
-  ]
-  },
+  ],
+  Atıştırmalıklar: [
+    {
+      name: "Soğan Halkası",
+      description: "",
+      price: "₺150"
+    },
+    {
+      name: "Kanka Sepeti",
+      description: "",
+      price: "₺180"
+    },
+    {
+      name: "Parmak Dilim Patates",
+      description: "",
+      price: "₺140"
+    },
+    {
+      name: "Mozarella Stick",
+      description: "patates kızartması ile servis edilir",
+      price: ""
+    },
+    {
+      name: "Sosis Sepeti",
+      description: "patates kızartması ile servis edilir",
+      price: "₺150"
+    },
+    {
+      name: "Chicken Fingers",
+      description: "",
+      price: "₺185"
+    },
+    {
+      name: "Sigara Böreği",
+      description: "Patates kızartması ile servis edilir.",
+      price: "₺155"
+    },
+  ],},
+  "Makarnalar": [
+    {
+      name: "Fettuccine Alfredo",
+      price: "₺260",
+      description:"",
+    },
+  ],
+  
+ Salatalar: [
+    {
+      name: "Akdeniz Salata",
+      description: "Mevsim yeşillikleri, roka, mısır, domates, salatalık, siyah dilim zeytin, üzerine beyaz peynir parçaları eşliğinde servis edilir.",
+      price: "₺150"
+    },
+    {
+      name: "Çıtır Tavuk Salata",
+      description: "Mevsim yeşillikleri üzerine kajun baharatlı tavuk parçaları, domates, salatalık, yeşil dilim zeytin, permesan peyniri, baby mısır ve ballı hardal sos ile servis edilir.",
+      price: "₺225"
+    },
+    {
+      name: "Ton Balıklı Salata",
+      description: "Mevsim yeşillikleri üzerine ton balığı, salatalık turşusu, mısır, siyah zeytin, cherry domates, salatalık, yağ, limon ve sos ile servis edilir.",
+      price: "₺230"
+    },
+    {
+      name: "Sezar Salata",
+      description: "Sezar sos ile lezzetlendirilmiş aysberg üzerine, baharatlı tavuk parçaları, kroton ekmek, permesan peyniri, dilim zeytin ve domates eşliğinde servis edilir.",
+      price: "₺225"
+    },
+    {
+      name: "Cevizli Dana Bonfile Salata",
+      description: "mevsim yeşillikleri, bonfile parçaları, ceviz, mısır, zeytin, cherry domates, salatalık ve soya sos ile servis edilir.",
+      price: "₺260"
+    }
+  ],
+  
     
   }
 
