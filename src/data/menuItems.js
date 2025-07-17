@@ -638,11 +638,7 @@ Kahveler: {
         price: "₺40.00",
         description: "",
       }, 
-            {
-        name: "Portakal Suyu",
-        price: "₺110.00",
-        description: "",
-      }, 
+       
        
     ],
   },
