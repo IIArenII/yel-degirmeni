@@ -6,12 +6,16 @@ import bgBreakfast from './assets/breakfasts.jpg';
 import bgCoffee from './assets/coffees.jpg';
 import bgDessert from './assets/desserts.jpg';
 import bgFastfood from './assets/fastfoods.jpg';
+import drinksImg from "./assets/drinks.jpg";
+import meatsImg from "./assets/meats.jpg";
+import saladsImg from "./assets/salads.jpg";
+import pastaImg from "./assets/pasta.jpg";
 import { useEffect } from 'react';
 
 const App = () => {
 
   useEffect(() => {
-  const images = [bgBreakfast, bgCoffee, bgDessert, bgFastfood];
+  const images = [bgBreakfast, bgCoffee, bgDessert, bgFastfood, drinksImg, meatsImg, saladsImg, pastaImg];
   images.forEach((src) => {
     const img = new Image();
     img.loading = 'eager';

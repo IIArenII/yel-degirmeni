@@ -4,7 +4,7 @@ import breakfastsImg from "../assets/breakfasts.jpg";
 import coffeesImg from "../assets/coffees.jpg";
 import dessertsImg from "../assets/desserts.jpg";
 import fastfoodsImg from "../assets/fastfoods.jpg";
-import içeceklerImg from "../assets/drinks.jpg";
+import drinksImg from "../assets/drinks.jpg";
 import meatsImg from "../assets/meats.jpg";
 import saladsImg from "../assets/salads.jpg";
 import pastaImg from "../assets/pasta.jpg";
@@ -15,7 +15,7 @@ const categoryBackgrounds = {
   Kahveler: coffeesImg,
   Tatlılar: dessertsImg,
   Aburcuburlar: fastfoodsImg,
-  "Soğuk & Sıcak İçecekler": içeceklerImg,
+  "Soğuk & Sıcak İçecekler": drinksImg,
   Etler: meatsImg,
   Salatalar: saladsImg,
   Makarnalar: pastaImg,
