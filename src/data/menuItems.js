@@ -369,74 +369,74 @@ Kahveler: {
     "Çaylar":[
        {
         name: "İnce Belli Bardak Çay",
-        price: "₺30.00",
+        price: "₺30",
         description: "",
       },
     {
         name: "Finçay Çay",
-        price: "₺60.00",
+        price: "₺60",
         description: "",
       },
       {
         name: "Atom Çayı",
-        price: "₺85.00",
+        price: "₺85",
         description: "",
       } ,
       {
         name: "Küçük Semaver Çay",
-        price: "₺195.00",
+        price: "₺195",
         description: "",
       } ,
       {
         name: "Büyük Semaver Çay",
-        price: "₺390.00",
+        price: "₺390",
         description: "",
       } ,
     ],
     "Doğal Bitki Çayları": [
       {
     name: "Ada Çayı",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Nane Limon Çayı",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Kış Çayı",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Ihlamur",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Yeşil Çay",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Limonlu Yeşil Çay",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Naneli Yeşil Çay",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Yaseminli Yeşil Çay",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Papatya Çayı",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
     ],
@@ -447,59 +447,59 @@ Kahveler: {
   "Meyve Çayları": [
     {
     name: "Elma Çayı",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Böğürtlen Çayı",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Kuşburnu Çayı",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Elma Tarçın Çayı",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   {
     name: "Kırmızı Orman Meyveli Çay",
-    price: "₺95.00",
+    price: "₺95",
     description: "",
   },
   ],
   "Limonata Vitamin Bar Kokteyler": [
     {
         name: "Soğuk Su",
-        price: "₺15.00",
+        price: "₺15",
         description: "",
       },
       {
         name: "Sıkma Limonlu Soda",
-        price: "₺90.00",
+        price: "₺90",
         description: "churchill",
       },
       {
         name: "Mojito",
-        price: "₺150.00",
+        price: "₺150",
         description: "",
       },
       {
         name: "Portakal Suyu",
-        price: "₺125.00",
+        price: "₺125",
         description: "Mevsimine göre bulunmaktadır.",
       },
       {
         name: "Limonata",
-        price: "₺120.00",
+        price: "₺120",
         description: "Mevsimine göre bulunmayabilir. Limonatalarımız limon, şeker ve su ile yapılmaktadır. Herhangi bir katkı maddesi bulunmamaktadır",
       },
       {
         name: "Aromalı Limonata",
-        price: "₺125.00",
+        price: "₺125",
         description: "Naneli-Elmalı-Çilekli",
       },
   ],
@@ -507,17 +507,17 @@ Kahveler: {
     "Sıcak İçecekler": [
       {
         name: "Ilık Su",
-        price: "₺15.00",
+        price: "₺15",
         description: "",
       },
       {
         name: "Sıcak Çikolata",
-        price: "₺110.00",
+        price: "₺110",
         description: ""
       },
       {
         name: "Aromalı Sıcak Çikolata",
-        price: "₺120.00",
+        price: "₺120",
         description: "Çilekli - Vanilyalı - Fındıklı - Bademli - Karamelli - Muzlu - Kavunlu"
       }, 
        {
@@ -547,113 +547,113 @@ Kahveler: {
       {
 
         name: "Soğuk Su",
-        price: "₺15.00",
+        price: "₺15",
         description: "",
       },
       {
         name: "Portakal Suyu",
-        price: "₺125.00",
+        price: "₺125",
         description: "Mevsimine göre bulunmaktadır.",
       },
       {
         name: "Sıkma Limonlu Soda",
-        price: "₺90.00",
+        price: "₺90",
         description: "churchill",
       },
       {
         name: "Mojito",
-        price: "₺150.00",
+        price: "₺150",
         description: "",
       },
       {
         name: "Limonata",
-        price: "₺120.00",
+        price: "₺120",
         description: "Mevsimine göre bulunmayabilir. Limonatalarımız limon, şeker ve su ile yapılmaktadır. Herhangi bir katkı maddesi bulunmamaktadır",
       },
       {
         name: "Aromalı Limonata",
-        price: "₺125.00",
+        price: "₺125",
         description: "Naneli-Elmalı-Çilekli",
       },
       {
 
         name: "Milkshakeler",
-        price: "₺150.00",
+        price: "₺150",
         description: "Süt, buz parçaları, dondurma, meyve parçaları ve meyve konsantresi ile hazırlanır. Çilekli - Çikolatalı - Vanilyalı - Kavunlu - Kırmızı Orman Meyveli - Şeftalili - Mangolu - Kivili - Muzlu - Ananaslı - Böğürtlenli "
       },
       {
         name: "İce Ball",
-        price: "₺130.00",
+        price: "₺130",
         description: "2 Top sade, 1 Top çilekli dondurma, çikolata şurubu, çilek şurubu buz ve süt ile hazırlanır."
       },
       {
         name: "Soğuk Çikolata",
-        price: "₺110.00",
+        price: "₺110",
         description: ""
       },
       {
         name: "Soğuk Beyaz Çikolata",
-        price: "₺120.00",
+        price: "₺120",
         description: ""
       },
       {
         name: "Frozenlar",
-        price: "₺120.00",
+        price: "₺120",
         description: "Buz parçaları, meyve püresi ve meyve konsantresi ile hazırlanır. Çilekli - Vanilyalı - Kavunlu - Karpuzlu -Kırmızı Orman Meyveli - Şeftalili - Mangolu - Elmalı"
       },
       {
         name: "Smoothieller",
-        price: "₺140.00",
+        price: "₺140",
         description: "Süt, buz parçacıkları, yoğurt, meyve parçacıkları, ve meyve konsantresi ile hazırlanır. Çilekli - Çikolatalı - Vanilyalı - Kavunlu - Kırmızı Orman Meyveli - Şeftalili - Mangolu - Kivili - Muzlu - Ananaslı - Böğürtlenli"
       },
       {
         name: "Cocacola",
-        price: "₺60.00",
+        price: "₺60",
         description: "",
       },  
       {
         name: "Fanta",
-        price: "₺60.00",
+        price: "₺60",
         description: "",
       },   
       {
         name: "Sprite",
-        price: "₺60.00",
+        price: "₺60",
         description: "",
       },   
             {
         name: "Cappy",
-        price: "₺60.00",
+        price: "₺60",
         description: "Şeftali-Karışık-Vişne",
       },            
             {
         name: "Fuse Tea",
-        price: "₺60.00",
+        price: "₺60",
         description: "Şeftali-Karpuz-Mango",
       },     
             {
         name: "Beypazarı Soda",
-        price: "₺30.00",
+        price: "₺30",
         description: "",
       },    
             {
         name: "Beypazarı Meyveli Soda",
-        price: "₺40.00",
+        price: "₺40",
         description: "",
       }, 
             {
         name: "Redbull",
-        price: "₺95.00",
+        price: "₺95",
         description: "",
       }, 
             {
         name: "Ayran Bardak",
-        price: "₺30.00",
+        price: "₺30",
         description: "",
       }, 
             {
         name: "Niğde Gazozu",
-        price: "₺40.00",
+        price: "₺40",
         description: "",
       }, 
        
@@ -682,7 +682,7 @@ Kahveler: {
   },
 
 "Etler": {
-  TavaYemekleri: [
+  "Tava Yemekleri": [
     {
       name: "Quesadilla Tavuk",
       description: "Tavuk parçaları, jelepeno biberi, biber çeşitleri, lavaş, kaşar peyniri, cheddar peynir ve soya sosu ile servis edilir.",
