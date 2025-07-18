@@ -477,6 +477,11 @@ Kahveler: {
         price: "₺15",
         description: "",
       },
+     {
+        name: "Churchill",
+        price: "₺90",
+        description: "",
+      },
       {
         name: "Mojito",
         price: "₺150",
