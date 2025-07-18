@@ -478,11 +478,6 @@ Kahveler: {
         description: "",
       },
       {
-        name: "Sıkma Limonlu Soda",
-        price: "₺90",
-        description: "churchill",
-      },
-      {
         name: "Mojito",
         price: "₺150",
         description: "",
