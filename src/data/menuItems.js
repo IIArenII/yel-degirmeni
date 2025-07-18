@@ -77,72 +77,67 @@ export const menuItems = {
     Tostlar: [
       {
       name: "Kaşar Peynirli Tost",
-      price: "₺160.00",
+      price: "₺160",
       description: "Domates, salatalık, Akdeniz yeşilliği ve parmak dilim patates eşliğinde servis edilir."
     },
     {
       name: "Karışık Tost",
-      price: "₺175.00",
+      price: "₺175",
       description: "Kaşar peynir, salam, sucuk, domates, salatalık, Akdeniz yeşilliği ve parmak dilim patates eşliğinde servis edilir."
     },
     {
       name: "Beyaz Peynirli Tost",
-      price: "₺155.00",
+      price: "₺155",
       description: "Domates, salatalık, Akdeniz yeşilliği ve parmak patates eşliğinde servis edilir."
     },
     {
       name: "Yel Değirmeni Tost",
-      price: "₺200.00",
+      price: "₺200",
       description: "Salam, sucuk, sosis, yumurta, kaşar, peynir, kekik, pul biber,  cheddar."
     },
     {
-      name: "Kırım Tost (Et Dönerli Tost)",
-      price: "",
-      description: "Hamburger ekmeğinde et döner, biber çeşitleri, cheddar ve kaşar peyniri."
-    },
-    {
       name: "Bazlama Karışık Tost",
-      price: "₺200.00",
+      price: "₺200",
       description: "Kaşar peyniri, salam, sucuk, domates, salatalık, Akdeniz yeşilliği ve parmak dilim patates eşliğinde servis edilir."
     },
     {
       name: "Körili Bazlama Tost",
-      price: "₺215.00",
+      price: "₺215",
       description: "Tavuk parçaları, köri sosu, krema ile hazırlanır."
     },
     {
       name: "Veggie Tost",
-      price: "₺155.00",
+      price: "₺155",
       description: "Siyah zeytin, mısır, kaşar peyniri, domates, salatalık eşliğinde servis edilir."
     },
     {
       name: "Demi glace Soslu Tost",
-      price: "₺215.00",
+      price: "₺215",
       description: "Et parçaları, krema, karabiber, kekik, cheddar ve kaşar peyniri ile hazırlanır."
     },
     {
       name: "Tavuklu Bazlama Tost",
-      price: "₺215.00",
+      price: "₺215",
       description: "Tavuk parçaları, biber çeşitleri, pul biber, kekik, kaşar peyniri, soya sosu ile hazırlanır."
     },
     {
       name: "Acılı Bazlama Tost",
-      price: "₺225.00",
+      price: "₺225",
       description: "Tavuk parçaları, jalapeno biber, biber çeşitleri, cheddar ve kaşar peyniri ile hazırlanır."
     },
     {
       name: "Şefin Kavurmalı Tostu",
-      price: "₺250.00",
+      price: "₺250",
       description: "Mix biber, kavrulmuş et, kaşar peyniri, domates, salatalık, Akdeniz yeşilliği ve parmak patates eşliğinde servis edilir."
     },
     {
       name: "Sucuklu Tost",
-      price: "₺175.00",
+      price: "₺170",
       description: "Sucuk, kaşar peyniri, salça sosu, kekik ve pul biber ile servis edilir."
     },
     {
       name: "Acılı Tost",
-      price: "₺165.00",
+      price: "₺165",
       description: "Jalapeno biber, salam, sucuk, sosis ve biber çeşitleri ile hazırlanır."
     },
 ],
@@ -238,12 +233,12 @@ Kahveler: {
     },
     {
       name: "CAPPUCCINO",
-      price: "₺",
+      price: "₺110",
       description: "espresso, süt ve süt köpüğü ile hazırlanır"
     },
     {
       name: "AROMALI CAPPUCCINO",
-      price: "₺110",
+      price: "₺120",
       description: "Fındık - Vanilya - Çilek - Çikolata - Muz"
     },
     {
@@ -366,11 +361,6 @@ Kahveler: {
       price: "₺115",
       description: ""
     },
-    {
-      name: "NESCAFE",
-      price: "₺",
-      description: ""
-    }
   ]
 },
 
@@ -378,10 +368,10 @@ Kahveler: {
 
     "Çaylar":[
        {
-    name: "İnce Belli Bardak Çay",
-    price: "₺30.00",
-    description: "",
-  },
+        name: "İnce Belli Bardak Çay",
+        price: "₺30.00",
+        description: "",
+      },
     {
         name: "Finçay Çay",
         price: "₺60.00",
@@ -481,6 +471,38 @@ Kahveler: {
     description: "",
   },
   ],
+  "Limonata Vitamin Bar Kokteyler": [
+    {
+        name: "Soğuk Su",
+        price: "₺15.00",
+        description: "",
+      },
+      {
+        name: "Sıkma Limonlu Soda",
+        price: "₺90.00",
+        description: "churchill",
+      },
+      {
+        name: "Mojito",
+        price: "₺150.00",
+        description: "",
+      },
+      {
+        name: "Portakal Suyu",
+        price: "₺125.00",
+        description: "Mevsimine göre bulunmaktadır.",
+      },
+      {
+        name: "Limonata",
+        price: "₺120.00",
+        description: "Mevsimine göre bulunmayabilir. Limonatalarımız limon, şeker ve su ile yapılmaktadır. Herhangi bir katkı maddesi bulunmamaktadır",
+      },
+      {
+        name: "Aromalı Limonata",
+        price: "₺125.00",
+        description: "Naneli-Elmalı-Çilekli",
+      },
+  ],
 
     "Sıcak İçecekler": [
       {
@@ -520,15 +542,10 @@ Kahveler: {
     }
   
 ],
-  
-
-
- 
-  
-
     
     "Soğuk İçecekler": [
       {
+
         name: "Soğuk Su",
         price: "₺15.00",
         description: "",
@@ -559,6 +576,7 @@ Kahveler: {
         description: "Naneli-Elmalı-Çilekli",
       },
       {
+
         name: "Milkshakeler",
         price: "₺150.00",
         description: "Süt, buz parçaları, dondurma, meyve parçaları ve meyve konsantresi ile hazırlanır. Çilekli - Çikolatalı - Vanilyalı - Kavunlu - Kırmızı Orman Meyveli - Şeftalili - Mangolu - Kivili - Muzlu - Ananaslı - Böğürtlenli "
@@ -659,9 +677,6 @@ Kahveler: {
     ],
     "Sütlü Tatlılar": [
       { name: "Profiterol", price: "₺155", description: "" },
-      { name: "Fırında Sütlaç", price: "₺", description: "" },
-      { name: "Keşkül", price: "₺", description: "" },
-      { name: "Sakızlı Muhallebi", price: "₺", description: "" },
       { name: "Magnolia Çilekli & Muzlu", price: "₺155", description: "" },
     ],
   },
@@ -755,7 +770,7 @@ Kahveler: {
   ],
 },
 
-Aburcuburlar: {
+Atıştırmalıklar: {
   "Burgerler": [
     {
       name: "HAMBURGER",
@@ -797,21 +812,7 @@ Aburcuburlar: {
       price: "₺280",
       description: "120 gr et köfte, karamelize mantar, kaşar peyniri, kıvırcık, domates, turşu eşliğinde servis edilir."
     },
-    {
-      name: "BARBÜKÜ BURGER",
-      price: "₺",
-      description: "120 gr et köfte, barbekü sos, mantar, kıvırcık, domates, turşu eşliğinde servis edilir."
-    },
-    {
-      name: "AVAKADOLU TAVUK BURGER",
-      price: "₺280",
-      description: "120 gr tavuk, avokado sosu, kaşar peyniri, cheddar peyniri, kıvırcık, domates, turşu ile servis edilir."
-    },
-    {
-      name: "PATLICANLI BURGER",
-      price: "₺280",
-      description: "%100 dana köfte, köz patlıcan, kırmızı biber, domates, patates kızartması, soğan halkası, mini salata eşliğinde servis edilir."
-    }
+    
   ],
 
     Pizzalar: [
@@ -850,16 +851,6 @@ Aburcuburlar: {
       price: "₺255",
       description: "Kaşar, cheddar peynir ve beyaz peynir ile hazırlanır.",
     },
-    {
-      name: "Kavurmalı Pizza",
-      price: "₺",
-      description: "Et kavurma, kırmızı kapya biber ve mozarella peynir ile hazırlanır.",
-    },
-    {
-      name: "Vejeteryan Pizza",
-      price: "₺",
-      description: "Mozarella peyniri, mantar, siyah zeytin, mix biber ve mısır ile hazırlanır.",
-    },
   ],
   "Wraplar": [
       {
@@ -886,11 +877,6 @@ Aburcuburlar: {
         name: "Acılı Wrap",
         description: "Jalapeno, tavuk parçaları, biber çeşitleri, mantar, mozzarella peyniri, soya sosu.",
         price: "₺310"
-      },
-      {
-        name: "Değirmen Wrap",
-        description: "Kaşar peyniri, cheddar peyniri, et parçaları, biber çeşitleri, mısır, domates, kekik, soya sosu.",
-        price: "₺"
       },
     ],
     Bagetler: [
@@ -927,11 +913,6 @@ Aburcuburlar: {
       price: "₺140"
     },
     {
-      name: "Mozarella Stick",
-      description: "patates kızartması ile servis edilir",
-      price: ""
-    },
-    {
       name: "Sosis Sepeti",
       description: "patates kızartması ile servis edilir",
       price: "₺150"
@@ -950,6 +931,16 @@ Aburcuburlar: {
   "Makarnalar": [
     {
       name: "Fettuccine Alfredo",
+      price: "₺260",
+      description:"",
+    },
+    {
+      name: "Penne Polo",
+      price: "₺",
+      description:"",
+    },
+    {
+      name: "Mantı",
       price: "₺260",
       description:"",
     },

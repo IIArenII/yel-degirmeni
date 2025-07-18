@@ -10,7 +10,7 @@ const categories = [
   { name: "Soğuk & Sıcak İçecekler", title: "🍵 İçecekler"  },
   { name: "Tatlılar", title: "🍰 Tatlılar" },
   { name: "Kahvaltılar", title: "🍳 Kahvaltılar" },
-  { name: "Aburcuburlar", title: "🍔 Aburcuburlar"  },
+  { name: "Atıştırmalıklar", title: "🍔 Atıştırmalıklar"  },
   { name: "Etler", title:"🍗 Etler"},
   { name: "Salatalar", title:"🥗 Salatalar"},
   { name: "Makarnalar", title:"🍝 Makarnalar"},
