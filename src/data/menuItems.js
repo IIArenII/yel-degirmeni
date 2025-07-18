@@ -556,9 +556,14 @@ Kahveler: {
         description: "Mevsimine göre bulunmaktadır.",
       },
       {
-        name: "Sıkma Limonlu Soda",
+        name: "Churchill",
         price: "₺90",
-        description: "churchill",
+        description: "",
+      },
+      {
+        name: "Bubble Tea",
+        price: "₺130",
+        description: "",
       },
       {
         name: "Mojito",
