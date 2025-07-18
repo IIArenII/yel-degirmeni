@@ -566,6 +566,11 @@ Kahveler: {
         description: "",
       },
       {
+        name: "Aromalı Bubble Tea",
+        price: "₺130",
+        description: "Mangolu - Karadutlu - Karamelli - Limonlu",
+      },
+      {
         name: "Mojito",
         price: "₺150",
         description: "",
