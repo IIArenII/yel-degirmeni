@@ -936,7 +936,7 @@ Atıştırmalıklar: {
     },
     {
       name: "Penne Polo",
-      price: "₺",
+      price: "₺260",
       description:"",
     },
     {
