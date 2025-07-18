@@ -14,7 +14,7 @@ const categoryBackgrounds = {
   Kahvaltılar: breakfastsImg,
   Kahveler: coffeesImg,
   Tatlılar: dessertsImg,
-  Aburcuburlar: fastfoodsImg,
+  Atıştırmalıklar: fastfoodsImg,
   "Soğuk & Sıcak İçecekler": drinksImg,
   Etler: meatsImg,
   Salatalar: saladsImg,
