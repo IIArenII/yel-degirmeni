@@ -563,11 +563,6 @@ Kahveler: {
       {
         name: "Bubble Tea",
         price: "₺130",
-        description: "",
-      },
-      {
-        name: "Aromalı Bubble Tea",
-        price: "₺130",
         description: "Mangolu - Karadutlu - Karamelli - Limonlu",
       },
       {
