@@ -5,7 +5,7 @@ export const menuItems = {
         name: "Serpme Kahvaltı (Çift Kişilik)",
         description:
           "Beyaz peynir, kaşar peyniri, siyah zeytin, süzme bal, yeşillik, çilek ya da vişne reçeli, tereyağı, nutella, domates, salatalık, çiçek sosis, patates kızartması, sigara böreği, biber kızartması, çift yumurtaya kaşar peynirli omlet, sucuklu çifte yumurta, poğaça tabağı ve çay ile birlikte",
-        price: "₺750"
+        price: "₺900"
       },
       {
         name: "Zengin Kahvaltı",
@@ -369,7 +369,7 @@ Kahveler: {
     "Çaylar":[
        {
         name: "İnce Belli Bardak Çay",
-        price: "₺40",
+        price: "₺45",
         description: "",
       },
     {
@@ -474,7 +474,7 @@ Kahveler: {
   "Limonata Vitamin Bar Kokteyler": [
     {
         name: "Soğuk Su",
-        price: "₺15",
+        price: "₺35",
         description: "",
       },
      {
@@ -507,7 +507,7 @@ Kahveler: {
     "Sıcak İçecekler": [
       {
         name: "Ilık Su",
-        price: "₺15",
+        price: "₺35",
         description: "",
       },
       {
@@ -547,7 +547,7 @@ Kahveler: {
       {
 
         name: "Soğuk Su",
-        price: "₺15",
+        price: "₺35",
         description: "",
       },
       {
