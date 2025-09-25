@@ -20,6 +20,24 @@ export const menuItems = {
         price: "₺300"
       }
     ],
+    "Fırın Ürünleri": [
+      {
+        name: "Poğaça",
+        description: "",
+        price: "₺20"
+      },
+      {
+        name: "Simit",
+        description: "",
+        price: "₺20"
+      },
+      {
+        name: "Açma",
+        description: "",
+        price: "₺25"
+      },
+      ],
+
     Sahandalar: [
       {
         name: "Sahanda Yumurta",
