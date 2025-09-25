@@ -17,27 +17,8 @@ export const menuItems = {
         name: "Ekspres Kahvaltı",
         description:
           "Beyaz peynir, kaşar peyniri, siyah zeytin, reçel, yeşil zeytin, bal, tereyağı, domates, salatalık, akdeniz yeşilliği, poğaça ve 1 bardak çay ile",
-        price: "₺350"
-      },],
-      "Fırın Ürünleri": [
-      {
-        name: "Poğaça",
-        description:
-          "",
-        price: "₺20"
-      },
-      {
-        name: "Açma",
-        description:
-          "",
-        price: "₺25"
-      },
-      {
-        name: "Simit",
-        description:
-          "",
-        price: "₺20"
-      },
+        price: "₺300"
+      }
     ],
     Sahandalar: [
       {
