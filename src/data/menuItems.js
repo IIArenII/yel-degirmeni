@@ -697,6 +697,8 @@ Kahveler: {
       { name: "Alman Pastası", price: "₺75", description: "" },
       { name: "Ekler Pasta (Porsiyon)", price: "₺160", description: "" },
       { name: "Kuru Pasta (Porsiyon)", price: "₺135", description: "" },
+    ],
+    "Baklava": [
       { name: "Baklava (Porsiyon)", price: "₺150", description: "" },
       { name: "Baklava (1kg)", price: "₺350", description: "" },
     ],
