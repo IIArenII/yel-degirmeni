@@ -697,11 +697,14 @@ Kahveler: {
       { name: "Alman Pastası", price: "₺75", description: "" },
       { name: "Ekler Pasta (Porsiyon)", price: "₺160", description: "" },
       { name: "Kuru Pasta (Porsiyon)", price: "₺135", description: "" },
+      { name: "Baklava (Porsiyon)", price: "₺150", description: "" },
+      { name: "Baklava (1kg)", price: "₺350", description: "" },
     ],
     "Sütlü Tatlılar": [
       { name: "Profiterol", price: "₺175", description: "" },
       { name: "Magnolia Çilekli & Muzlu", price: "₺175", description: "" },
     ],
+    
   },
 
 "Etler": {
