@@ -279,7 +279,7 @@ Kahveler: {
     {
       name: "AROMALI LATTE",
       price: "₺145",
-      description: "Karamel Çilek Vanilya Baden-Fundik"
+      description: "Karamel Çilek Vanilya Badem-Fındık"
     }
   ],
   "Mochalar": [
