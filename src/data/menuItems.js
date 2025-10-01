@@ -855,16 +855,6 @@ Atıştırmalıklar: {
       description: "İri sucuklar ve mozarella peyniri ile hazırlanır.",
     },
     {
-      name: "Tavuklu Alaturka Pizza",
-      price: "₺265",
-      description: "Tavuk parçacıkları ve mozarella peyniri ile hazırlanır.",
-    },
-    {
-      name: "Ton Balıklı Pizza",
-      price: "₺270",
-      description: "Mısır, soğan, ton balığı ve kekik ile hazırlanır.",
-    },
-    {
       name: "Acılı Pizza",
       price: "₺255",
       description: "Tavuk parçaları, jalapeno biber, biber çeşitleri, soya sosu, pul biber ile hazırlanır.",
